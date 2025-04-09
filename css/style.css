@@ -1,0 +1,234 @@
+html {
+    font-size: 20px;
+    font-family: Helvetica, "Times New Roman", Times, serif;
+}
+
+header {
+    background-color: white;
+    box-shadow: -0.05rem -0.05rem 0.3rem #888888;
+    width: 100%;
+}
+
+header>nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+}
+
+.listStyle {
+    list-style-type: none;
+}
+
+figcaption {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.resume, .about, #work, .contact {
+    margin: 0.5rem 0rem;
+    padding: 0.5rem 0.5rem;
+    box-shadow: -0.05rem -0.05rem 0.3rem #888888;
+    background-color: rgba(255, 192, 203, 0.267);
+    height: 34.25rem;
+    width: 99%;
+}
+
+#work {
+    text-align: center;
+}
+
+#myCanvas {
+    padding: 0.5rem;
+    width: 40rem;
+    font-size: 1.1rem;
+}
+
+#myResume {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1em;
+}
+
+fieldset {
+    font-size: 1.5rem;
+    border: 0;
+}
+
+form {
+    padding: 1rem .5rem;
+    margin: .5rem 5rem;
+}
+
+#emailid, #nameid, #sendid {
+    height: 2.5rem;
+    font-size: .8rem;
+    width: 25rem;
+    background-color: whitesmoke;
+}
+
+label {
+    width: 10rem;
+    text-align: left;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+#sendid {
+    font-weight: bold;
+    background-color: rgb(241, 40, 147);
+    font-size: 1.25rem;
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    width: 25rem;
+}
+
+.Inquiry {
+    height: 2.5rem;
+    width: 23.75rem;
+    color: rgb(241, 40, 147);
+    font-size: 2rem;
+    text-align: center;
+}
+
+#resumeLabel {
+    font-size: 2rem;
+}
+
+#msgid {
+    width: 25rem;
+    height: 7.5rem;
+    font-size: 0.8rem;
+    background-color: whitesmoke;
+}
+
+.greeting {
+    height: 7rem;
+    width: 45rem;
+    font-size: 6rem;
+    /* font-family: Helvetica, "Times New Roman", Times, serif; */
+    padding-bottom: 0rem;
+    color: #eee;
+    position: relative;
+    top: 10rem;
+    background-color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+    float: right;
+}
+
+.navigation-menu {
+    list-style-type: none;
+}
+
+/* Remove the numbers from the list in nav */
+
+.menu {
+    display: inline-block;
+}
+
+.menu a::before {
+    padding: 2rem .5rem;
+    margin: .5rem .5rem;
+    content: '';
+}
+
+.menu a::after {
+    padding: 2rem .5rem;
+    margin: .5rem .5rem;
+    display: inline-block;
+    content: '';
+}
+
+/* Style the links inside the navigation bar */
+
+.menu a {
+    margin: .5rem .5rem;
+    padding: .7rem .7rem;
+    color: #333;
+    font-weight: bold;
+    font-size: .85rem;
+    justify-content: space-around;
+    background-color: rgba(255, 192, 203, 0.267);
+    box-shadow: -0.05rem -0.05rem 0.3rem #888888;
+    /* Add rounded corners to shadow box */
+    border-radius: 1rem;
+    /* Remove the underline on the links */
+    text-decoration: none;
+}
+
+/* Change the color of links on hover */
+
+.menu a:hover, a.selected {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.Logo {
+    height: 7.5rem;
+    width: 17.5rem;
+    float: left;
+}
+
+#ExampleWorkImg {
+    height: 27rem;
+}
+
+#aboutImg {
+    height: 25rem;
+    width: 25rem;
+    border-style: double;
+    border-color: #888888;
+    background: white;
+    border-radius: 50%;
+}
+
+#resumeImg {
+    height: 25rem;
+    width: 25rem;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+#contactImg {
+    height: 10rem;
+    width: 15rem;
+    margin: .5rem;
+    padding: .5rem;
+    text-align: center;
+}
+
+#mainBody {
+    background-image: url("../img/Tina1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1100px 800px;
+    background-position: 0rem 6.25rem;
+}
+
+#emailMe, #linkedin {
+    height: 3rem;
+    width: 3.75rem;
+}
+
+#gitHub {
+    height: 3.25rem;
+    width: 3.75rem;
+}
+
+footer {
+    position: fixed;
+    margin-top: 2%;
+    width: 99%;
+    height: 4.5rem;
+    bottom: 0;
+    text-align: right;
+    align-items: center;
+}
