@@ -25,6 +25,10 @@ nav {
 figcaption {
     font-size: 1.1rem;
     text-align: center;
+
+}
+
+#myName {
     font-weight: bold;
 }
 
@@ -190,8 +194,8 @@ label {
 }
 
 #aboutImg {
-    height: 25rem;
-    width: 25rem;
+    
+    width: 20rem;
     border-style: double;
     border-color: #888888;
     background: white;
@@ -225,7 +229,7 @@ body {
     background-size: 1100px 800px;
     background-position: 0rem 6.25rem; */
 
-    display: inline-block;
+    align-items: center;
 }
 
 #emailMe, #linkedin {
@@ -243,7 +247,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(241, 226, 238);
+    background-color: rgba(255, 192, 203, 0.267);
     color: white;
     text-align: center;
     align-items: center;
