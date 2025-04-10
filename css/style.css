@@ -110,18 +110,15 @@ label {
     background-color: whitesmoke;
 }
 
+
 .greeting {
-    height: 7rem;
-    width: 45rem;
-    font-size: 6rem;
-    /* font-family: Helvetica, "Times New Roman", Times, serif; */
-    padding-bottom: 0rem;
-    color: #eee;
-    position: relative;
-    top: 10rem;
-    background-color: rgba(0, 0, 0, 0.25);
+
+    font-family: Helvetica, "Times New Roman", Times, serif;
     text-align: center;
-    float: right;
+    width: 18em;
+    text-align: justify;
+    text-align-last: justify;
+
 }
 
 .navigation-menu {
@@ -182,6 +179,16 @@ label {
     height: 27rem;
 }
 
+#bodyImg {
+
+    border: 1px solid #555;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 35rem;
+}
+
 #aboutImg {
     height: 25rem;
     width: 25rem;
@@ -206,11 +213,19 @@ label {
     text-align: center;
 }
 
+body {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
 #mainBody {
-    background-image: url("../img/Tina1.jpg");
+    /*     background-image: url("../img/Tina1.jpg");
     background-repeat: no-repeat;
     background-size: 1100px 800px;
-    background-position: 0rem 6.25rem;
+    background-position: 0rem 6.25rem; */
+
+    display: inline-block;
 }
 
 #emailMe, #linkedin {
@@ -225,10 +240,11 @@ label {
 
 footer {
     position: fixed;
-    margin-top: 2%;
-    width: 99%;
-    height: 4.5rem;
+    left: 0;
     bottom: 0;
-    text-align: right;
+    width: 100%;
+    background-color: rgb(241, 226, 238);
+    color: white;
+    text-align: center;
     align-items: center;
 }
