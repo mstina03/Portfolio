@@ -118,8 +118,7 @@ label {
 .greeting {
 
     font-family: Helvetica, "Times New Roman", Times, serif;
-    text-align: center;
-    width: 18em;
+    width: 50%;
     text-align: justify;
     text-align-last: justify;
 
@@ -194,7 +193,7 @@ label {
 }
 
 #aboutImg {
-    
+
     width: 20rem;
     border-style: double;
     border-color: #888888;
@@ -223,11 +222,7 @@ body {
     clear: both;
 }
 
-#mainBody {
-    /*     background-image: url("../img/Tina1.jpg");
-    background-repeat: no-repeat;
-    background-size: 1100px 800px;
-    background-position: 0rem 6.25rem; */
+.mainBody {
 
     align-items: center;
 }
