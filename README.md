@@ -1,7 +1,7 @@
 # My Portfolio
 
 
-## Tina Pollard
+## Tina Smith
 
 ### User Stories
 1. As a developer, I want to provide my resume information so that employers have a brief overview of my skills and experiences
