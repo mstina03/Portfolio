@@ -121,7 +121,16 @@ label {
     width: 50%;
     text-align: justify;
     text-align-last: justify;
+    align-content: center;
 
+}
+
+.ogretting {
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .navigation-menu {
@@ -238,6 +247,7 @@ body {
 }
 
 footer {
+    /* Use Flex  */
     position: fixed;
     left: 0;
     bottom: 0;
@@ -245,4 +255,5 @@ footer {
     color: white;
     text-align: center;
     align-items: center;
+
 }
