@@ -115,22 +115,18 @@ label {
 }
 
 
-.greeting {
+.mygreeting {
 
     font-family: Helvetica, "Times New Roman", Times, serif;
     width: 50%;
     text-align: justify;
-    text-align-last: justify;
     align-content: center;
 
-}
+    position: absolute;
+    left: 415px;
+    bottom: -95px;
+    font-size: 1rem;
 
-.ogretting {
-
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .navigation-menu {
@@ -197,8 +193,9 @@ label {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+
     height: 35rem;
+    border-radius: 50%;
 }
 
 #aboutImg {
@@ -211,15 +208,15 @@ label {
 }
 
 #resumeImg {
-    height: 25rem;
-    width: 25rem;
+
+    width: 20rem;
     margin: .5rem;
     padding: .5rem;
 }
 
 #contactImg {
-    height: 10rem;
-    width: 15rem;
+
+    width: 20rem;
     margin: .5rem;
     padding: .5rem;
     text-align: center;
@@ -237,23 +234,47 @@ body {
 }
 
 #emailMe, #linkedin {
-    height: 3rem;
-    width: 3.75rem;
+    height: 2rem;
+    width: 2.75rem;
 }
 
 #gitHub {
-    height: 3.25rem;
-    width: 3.75rem;
+    height: 2.25rem;
+    width: 2.75rem;
 }
 
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #d63384;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.social-icons .social-icon:last-child {
+    margin-right: 0;
+}
+
+.social-icons .social-icon:hover {
+    background-color: black;
+}
+
+
 footer {
-    /* Use Flex  */
-    position: fixed;
+
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 2em;
     color: white;
     text-align: center;
     align-items: center;
+
 
 }
