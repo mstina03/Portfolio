@@ -8,9 +8,9 @@
     <meta name="keywords" content="HTML,CSS,JavaScript">
     <meta name="author" content="Tina Smith" />
     <title>Tina Smith - Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="img/tina.png" />  
+    <link rel="icon" type="image/x-icon" href="img/tina.png" />
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <header>
@@ -30,40 +30,51 @@
     </nav>
 </header>
 
-<body id="mainBody">
+<body>
 
-    <div class="mainBody">
-        <figure>
-            <img id="bodyImg" src="img/Tina1.jpg" alt=" Tina Smith Image">
-        </figure>
-        <br>
-        <figcaption id="myName">Tina Smith</figcaption>
-        <figcaption>Web Designer & Developer</figcaption>
 
-        <br>
-        <br>
-        <br>
-
-        <div class="mygreeting">
-
-            Hello! Thank you for taking your time to check out my portfolio. Here you will find examples of my work.
-            I specialize in Backend software development. I have some experience in frontend, so please look through
-            the pages and let me know if you believe I am up to the task.
+    <div class="row">
+        <div class="col-md-6" >
+            <br>
+            <figure>
+                <img id="bodyImg" class="rounded mx-auto d-block" src="img/Tina1.jpg" alt=" Tina Smith Image">
+            </figure>
 
         </div>
+        <div class="col-md-6" id="textpos">
+
+            <br><br><br><br><br><br><br><br>
+            <p id="name">Hi, Im Tina</p>
+            <p id="title"> Web Designer & Developer</p>
+
+            <p id="mygreeting">
+                Thank you for checking out my portfolio. Here you will find examples of my work.
+                I specialize in Backend software development and currenlty working on becoming a full stack developer.
+                Look through the pages and let me know if you believe I am up to the task.
+            </p>
+        </div>
+        
 
     </div>
-    <br>
-    <br>
-    <br>
 
-    <footer>
-        <a href="contact.html"><img src="img/mail-black-envelope-symbol.png" alt="Email Logo" id="emailMe"></a>
-        <a href="https://github.com/mstina03" target="_blank"><img src="img/github-square-512.png" alt="Github Logo"
-                id="gitHub"></a>
-        <a href="https://www.linkedin.com/in/smithtina1203" target="_blank"><img src="img/Linked In.png"
-                alt="Linked In Logo" id="linkedin"></a>
-    </footer>
+    <!-- style="background-color:lavenderblush;" -->
+
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div id="greeting" class="col-sm-4">
+            <br>
+            <br>
+            <footer>
+                <a href="contact.html"><img src="img/mail-black-envelope-symbol.png" alt="Email Logo" id="emailMe"></a>
+                <a href="https://github.com/mstina03" target="_blank"><img src="img/github-square-512.png"
+                        alt="Github Logo" id="gitHub"></a>
+                <a href="https://www.linkedin.com/in/smithtina1203" target="_blank"><img src="img/Linked In.png"
+                        alt="Linked In Logo" id="linkedin"></a>
+            </footer>
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
