@@ -43,7 +43,7 @@ figcaption {
     text-align: center;
 }
 
-.form{
+.form {
     margin-left: auto;
     margin-right: auto;
 }
@@ -58,7 +58,7 @@ figcaption {
 
 .heading {
     text-align: center;
-    font-size: 1.75em;
+    font-size: 1.75vw;
 }
 
 fieldset {
@@ -74,7 +74,7 @@ form {
 #emailid, #nameid, #sendid {
     height: 2.5rem;
     font-size: .8rem;
-    width: 25rem;
+    width: 30vw;
     background-color: whitesmoke;
 }
 
@@ -90,7 +90,7 @@ label {
     font-size: 1.25rem;
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 0.5rem;
-    width: 25rem;
+    width: 30vw;
     color: #fff;
 }
 
@@ -115,7 +115,7 @@ label {
 }
 
 #msgid {
-    width: 25rem;
+    width: 30vw;
     height: 7.5rem;
     font-size: 0.8rem;
     background-color: whitesmoke;
@@ -257,23 +257,17 @@ body {
 }
 
 #name {
-    font-family: Helvetica, "Times New Roman", Times, serif;
-    font-size: 5rem;
+    font-size: 5vw;
     text-align: left;
-
 }
 
 #title {
-
-    font-family: Helvetica, "Times New Roman", Times, serif;
-    font-size: 2rem;
+    font-size: 3vw;
     text-align: left;
 
 }
 
 #mygreeting {
-
-    font-family: Helvetica, "Times New Roman", Times, serif;
     text-align: left;
     font-size: 1rem;
 
