@@ -9,14 +9,6 @@ header {
     width: 100%;
 }
 
-/* header>nav {
-    display: flex;
-    justify-content: space-between;
-} */
-
-/* nav {
-    display: flex;
-} */
 
 .icon-bar {
     background-color: black;
@@ -109,7 +101,7 @@ label {
 
     margin: .5rem;
     padding: .5rem;
-    width: 20rem;
+    width: 15rem;
     text-align: center;
 }
 
@@ -124,10 +116,6 @@ label {
     background-color: whitesmoke;
 }
 
-/* .navigation-menu {
-    list-style-type: none;
-    float: right;
-} */
 
 /* Remove the numbers from the list in nav */
 
@@ -193,9 +181,6 @@ label {
 
 }
 
-/* #about {
-    display: flex;
-} */
 
 #aboutImg {
 
