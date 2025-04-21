@@ -18,6 +18,10 @@ header {
     list-style-type: none;
 }
 
+ul {
+    list-style-type: square;
+}
+
 figcaption {
     font-size: 1.1rem;
     text-align: center;
@@ -40,16 +44,12 @@ figcaption {
 }
 
 
-#myCanvas {
+#myCanvas, #myResume {
     padding: 2rem;
-    font-size: 1.1rem;
-    text-align: left;
-}
-
-#myResume {
-    padding: 0.5rem;
     font-size: 1rem;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .heading {
@@ -91,7 +91,7 @@ label {
 }
 
 #Inquiry {
-   
+
     height: 2.5rem;
     font-size: 2rem;
 }
@@ -102,7 +102,8 @@ label {
     margin: .5rem;
     padding: .5rem;
     width: 15rem;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #resumeLabel {
@@ -171,13 +172,16 @@ label {
 
 #ExampleWorkImg {
     height: 27rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #bodyImg {
 
     height: 30rem;
-    align-items: center;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -189,6 +193,8 @@ label {
     border-color: #888888;
     background: white;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #resumeImg {
@@ -196,6 +202,8 @@ label {
     width: 15rem;
     margin: .5rem;
     padding: .5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
