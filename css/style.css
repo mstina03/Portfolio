@@ -59,6 +59,7 @@ figcaption {
 .heading {
     text-align: center;
     font-size: 1.75vw;
+    font-weight: bold;
 }
 
 fieldset {
@@ -66,22 +67,18 @@ fieldset {
     border: 0;
 }
 
-form {
-    padding: 1rem .5rem;
-    margin: .5rem 5rem;
-}
-
 #emailid, #nameid, #sendid {
     height: 2.5rem;
     font-size: .8rem;
-    width: 30vw;
+    width: 35vw;
     background-color: whitesmoke;
 }
 
-label {
-    width: 10rem;
-    float: left;
-    font-size: 1.2rem;
+#msgid {
+    width: 35vw;
+    height: 7.5rem;
+    font-size: 0.8rem;
+    background-color: whitesmoke;
 }
 
 #sendid {
@@ -90,8 +87,26 @@ label {
     font-size: 1.25rem;
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 0.5rem;
-    width: 30vw;
+    width: 35vw;
     color: #fff;
+
+
+    label {
+        width: 10rem;
+        float: left;
+        font-size: 1.2rem;
+    }
+
+
+}
+
+.mycontainer{
+
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color:whitesmoke;
+    border:1px solid black; */
 }
 
 #Inquiry {
@@ -105,7 +120,7 @@ label {
 
     margin: .5rem;
     padding: .5rem;
-    width: 15rem;
+    width: 13rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -114,12 +129,6 @@ label {
     font-size: 2rem;
 }
 
-#msgid {
-    width: 30vw;
-    height: 7.5rem;
-    font-size: 0.8rem;
-    background-color: whitesmoke;
-}
 
 
 /* Remove the numbers from the list in nav */
@@ -286,7 +295,7 @@ body {
 
 }
 
-footer {
+/* footer {
 
     position: relative;
     left: 0;
@@ -296,4 +305,4 @@ footer {
     text-align: center;
     align-items: center;
 
-}
+} */
