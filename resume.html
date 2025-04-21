@@ -13,78 +13,103 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <header>
-    <nav>
-        <figure>
-            <a href="index.html"><img src="img/TinaLogo.png" alt=" Tina's Logo" class="Logo"></a>
-        </figure>
-        <div class="navigation-menu">
-            <ol>
-                <li class="menu"><a href="index.html">Home</a></li>
-                <li class="menu"><a href="about.html">About</a></li>
-                <li class="menu"><a href="work.html">Projects</a></li>
-                <li class="menu"><a href="resume.html" class="selected">Resume</a></li>
-                <li class="menu"><a href="contact.html">Contact</a></li>
-            </ol>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html"><img src="img/TinaLogo.png" alt=" Tina's Logo" class="Logo"
+                        class="navbar-brand"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" class="navigation-menu">
+                <ul class="nav nav-pills navbar-right">
+                    <li class="menu"><a href="index.html">Home</a></li>
+                    <li class="menu"><a href="about.html">About</a></li>
+                    <li class="menu"><a href="work.html">Projects</a></li>
+                    <li class="menu"><a href="resume.html" class="selected">Resume</a></li>
+                    <li class="menu"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+    <nav class="navbar navbar-inverse"></nav>
 </header>
+
 
 <body>
     <p class="heading">
         Web Designer & Developer with a passion for designing & developing custom websites.
     </p>
-    <nav class="resume">
-        <div>
-            <figure>
-                <img id="resumeImg" src="img/lady_at_laptop.png" alt="lady_at_laptop">
-            </figure>
-            <figcaption id="resumeLabel">My Resume</figcaption>
+
+
+    <div class="resume">
+        <div class="row">
+            <div class="col-md-6">
+                <br><br><br>
+                <div>
+                    <figure>
+                        <img id="resumeImg" src="img/lady_at_laptop.png" alt="lady_at_laptop">
+                    </figure>
+                    <figcaption id="resumeLabel">My Resume</figcaption>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+
+                <div id="myResume">
+
+                    <h3><u>Work Experience</u> </h3>
+                    <ul class="listStyle">
+                        <h4>Software Engineer - June 2018 - August 2024</h4>
+
+                        <ul>
+                            <li>Make enhancements to existing software applications and websites</li>
+                        </ul>
+
+                        <h4>Release Engineer - January 2009 – June 2018</h4>
+
+                        <ul>
+                            <li>Work with developers and business customers to plan software releases and customer
+                                validation</li>
+                            <li>Create release documentation and obtain the necessary approvals for the release</li>
+                            <li>Send out email communication to customers detailing the release status</li>
+                            <li>Troubleshoot environment issues</li>
+                        </ul>
+
+                        <h4>Programmer - July 2007 – January 2009</h4>
+
+                        <ul>
+                            <li>Provide customer support for various team applications</li>
+                            <li>Research and correct data inconsistencies between databases</li>
+                            <li>Generate customer reports</li>
+                            <li>Modify existing software to meet change requests</li>
+                            <li>Coordinate with teams across the area to schedule and successfully deploy applications
+                            </li>
+                        </ul>
+
+
+                    </ul>
+                    <h3><u>Education & Training</u></h3>
+                    <ul class="listStyle">
+                        <ul>
+                            <li>Master of Business Administration - December 2011</li>
+                            <li>Bachelor of Science in Computer Information Systems - May 2004</li>
+                            <li>Software Engineering Bootcamp - August 2025</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+
         </div>
+    </div>
 
-        <div id="myResume">
-
-            <h3><u>Work Experience</u> </h3>
-            <ul class="listStyle">
-                <h4>Software Engineer - June 2018 - August 2024</h4>
-
-                <ul>
-                    <li>Make enhancements to existing software applications and websites</li>
-                </ul>
-
-                <h4>Release Engineer - January 2009 – June 2018</h4>
-
-                <ul>
-                    <li>Work with developers and business customers to plan software releases and customer validation</li>
-                    <li>Create release documentation and obtain the necessary approvals for the release</li>
-                    <li>Send out email communication to customers detailing the release status</li>
-                    <li>Troubleshoot environment issues</li>
-                </ul>
-
-                <h4>Programmer - July 2007 – January 2009</h4>
-
-                <ul>
-                    <li>Provide customer support for various team applications</li>
-                    <li>Research and correct data inconsistencies between databases</li>
-                    <li>Generate customer reports</li>
-                    <li>Modify existing software to meet change requests</li>
-                    <li>Coordinate with teams across the area to schedule and successfully deploy applications</li>
-                </ul>
-
-
-            </ul>
-            <h3><u>Education & Training</u></h3>
-            <ul class="listStyle">
-                <ul>
-                    <li>Master of Business Administration - December 2011</li>
-                    <li>Bachelor of Science in Computer Information Systems - May 2004</li>
-                    <li>Software Engineering Bootcamp - August 2025</li>
-                </ul>
-            </ul>
-        </div>
-    </nav>
     <footer>
-        <a href="contact.html"><img src="img/mail-black-envelope-symbol.png" alt="Email Logo" id="emailMe"></a>
+        <a href="contact.html"><img src="img/envelope.png" alt="Email Logo" id="emailMe"></a>
         <a href="https://github.com/mstina03" target="_blank"><img src="img/github-square-512.png" alt="Github Logo"
                 id="gitHub"></a>
         <a href="https://www.linkedin.com" target="_blank"><img src="img/Linked In.png" alt="Linked In Logo"

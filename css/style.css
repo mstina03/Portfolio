@@ -9,13 +9,17 @@ header {
     width: 100%;
 }
 
-header>nav {
+/* header>nav {
     display: flex;
     justify-content: space-between;
-}
+} */
 
-nav {
+/* nav {
     display: flex;
+} */
+
+.icon-bar {
+    background-color: black;
 }
 
 .listStyle {
@@ -36,29 +40,24 @@ figcaption {
     margin: 0.5rem 0rem;
     padding: 0.5rem 0.5rem;
     box-shadow: -0.05rem -0.05rem 0.3rem #888888;
-    /* background-color: rgba(255, 192, 203, 0.267); */
     height: 100%;
-    /* width: 99%; */
 }
 
 #work {
     text-align: center;
 }
 
-#aboutpg {
-
-    padding: 2rem;
-}
 
 #myCanvas {
     padding: 2rem;
-    width: 50rem;
     font-size: 1.1rem;
+    text-align: left;
 }
 
 #myResume {
     padding: 0.5rem;
     font-size: 1rem;
+    text-align: left;
 }
 
 .heading {
@@ -85,26 +84,36 @@ form {
 
 label {
     width: 10rem;
-    text-align: left;
-    margin: 0.5rem;
-    padding: 0.5rem;
+    float: left;
     font-size: 1.2rem;
 }
 
 #sendid {
     font-weight: bold;
-    background-color: rgb(241, 40, 147);
+    background-color: black;
     font-size: 1.25rem;
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 0.5rem;
     width: 25rem;
+    color: #fff;
 }
 
-.Inquiry {
+#Inquiry {
+    margin: .5rem;
+    padding: .5rem;
     height: 2.5rem;
     width: 23.75rem;
-    color: rgb(241, 40, 147);
     font-size: 2rem;
+    text-align: center;
+
+}
+
+
+#contactImg {
+
+    margin: .5rem;
+    padding: .5rem;
+    width: 20rem;
     text-align: center;
 }
 
@@ -119,9 +128,10 @@ label {
     background-color: whitesmoke;
 }
 
-.navigation-menu {
+/* .navigation-menu {
     list-style-type: none;
-}
+    float: right;
+} */
 
 /* Remove the numbers from the list in nav */
 
@@ -130,14 +140,14 @@ label {
 }
 
 .menu a::before {
-    padding: 2rem .5rem;
-    margin: .5rem .5rem;
+    padding: .1rem .1rem;
+    margin: .1rem .1rem;
     content: '';
 }
 
 .menu a::after {
-    padding: 2rem .5rem;
-    margin: .5rem .5rem;
+    padding: .1rem .1rem;
+    margin: .1rem .1rem;
     display: inline-block;
     content: '';
 }
@@ -146,7 +156,7 @@ label {
 
 .menu a {
     margin: .5rem .5rem;
-    padding: .7rem .7rem;
+    padding: .5rem .5rem;
     color: #333;
     font-weight: bold;
     font-size: .85rem;
@@ -154,7 +164,7 @@ label {
     background-color: rgba(255, 192, 203, 0.267);
     box-shadow: -0.05rem -0.05rem 0.3rem #888888;
     /* Add rounded corners to shadow box */
-    border-radius: 1rem;
+    border-radius: 3em;
     /* Remove the underline on the links */
     text-decoration: none;
 }
@@ -169,8 +179,10 @@ label {
 
 .Logo {
     height: 7.5rem;
-    width: 17.5rem;
+    width: 15rem;
     float: left;
+    /* max-width: 100%;
+    height: auto; */
 }
 
 #ExampleWorkImg {
@@ -185,6 +197,10 @@ label {
 
 }
 
+/* #about {
+    display: flex;
+} */
+
 #aboutImg {
 
     width: 20rem;
@@ -196,18 +212,11 @@ label {
 
 #resumeImg {
 
-    width: 20rem;
+    width: 15rem;
     margin: .5rem;
     padding: .5rem;
 }
 
-#contactImg {
-
-    width: 20rem;
-    margin: .5rem;
-    padding: .5rem;
-    text-align: center;
-}
 
 body {
     min-height: 400px;
@@ -274,7 +283,7 @@ body {
     font-family: Helvetica, "Times New Roman", Times, serif;
     text-align: left;
     font-size: 1rem;
-   
+
     width: 25em;
     text-align: justify;
     text-align-last: justify;

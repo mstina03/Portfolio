@@ -13,60 +13,85 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css" />
 </head>
+
+
 <header>
-    <nav>
-        <figure>
-            <a href="index.html"><img src="img/TinaLogo.png" alt=" Tina's Logo" class="Logo"></a>
-        </figure>
-        <div class="navigation-menu">
-            <ol>
-                <li class="menu"><a href="index.html">Home</a></li>
-                <li class="menu"><a href="about.html">About</a></li>
-                <li class="menu"><a href="work.html">Projects</a></li>
-                <li class="menu"><a href="resume.html">Resume</a></li>
-                <li class="menu"><a href="contact.html" class="selected">Contact</a></li>
-            </ol>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html"><img src="img/TinaLogo.png" alt=" Tina's Logo" class="Logo"
+                        class="navbar-brand"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" class="navigation-menu">
+                <ul class="nav nav-pills navbar-right">
+                    <li class="menu"><a href="index.html">Home</a></li>
+                    <li class="menu"><a href="about.html">About</a></li>
+                    <li class="menu"><a href="work.html">Projects</a></li>
+                    <li class="menu"><a href="resume.html">Resume</a></li>
+                    <li class="menu"><a href="contact.html" class="selected">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+    <nav class="navbar navbar-inverse"></nav>
 </header>
 
 <body>
     <p class="heading">
         Web Designer & Developer with a passion for designing & developing custom websites.
     </p>
-    <nav class="contact">
-        <div id="contactImg">
-            <figure>
-                <img  src="img/email-icon-on-pink-square.jpg" alt=" Contact Me">
-            </figure>
-            <figcaption class="Inquiry">Contact Me</figcaption>
+
+    <div class="contact">
+        <div class="row">
+            <div class="col-md-6">
+                <br><br><br>
+                <div>
+                    <figcaption id="Inquiry">Contact Me</figcaption>
+                    <figure>
+                        <img id="contactImg" src="img/envelope.png" alt=" Contact Me Image">
+                    </figure>   
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <form action="#" method="POST">
+                    <fieldset>
+
+                        <div>
+                            <label>Name: </label>
+                            <p><input id="nameid" type="text" required="required" name="name" /></p>
+
+                        </div>
+                        
+                        <div>
+                            <label>E-mail: </label>
+                            <p><input id="emailid" type="email" required="required" name="email" /></p>
+                        </div>
+
+                        <div>
+                            <label>Message:</label>
+                            <div>
+                                <p><textarea id="msgid" name="paragraph_text" cols="50" rows="10"
+                                        required="required"></textarea></p>
+                                <input id="sendid" type="submit" value="Send" name="submit" />
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+
+            </div>
+
         </div>
-
-        <form action="#" method="POST">
-            <fieldset>
-                <nav>
-                    <label>Name: </label>
-                    <p><input id="nameid" type="text" required="required" name="name" /></p>
-
-                </nav>
-                <nav>
-                    <label>E-mail Address: </label>
-                    <p><input id="emailid" type="email" required="required" name="email" /></p>
-                </nav>
-                <nav>
-                    <label>Message:</label>
-                    <div>
-                        <p><textarea id="msgid" name="paragraph_text" cols="50" rows="10"
-                                required="required"></textarea></p>
-                        <input id="sendid" type="submit" value="Send" name="submit" />
-                    </div>
-                </nav>
-            </fieldset>
-        </form>
-    </nav>
+    </div>
 
     <footer>
-        <a href="contact.html"><img src="img/mail-black-envelope-symbol.png" alt="Email Logo" id="emailMe"></a>
+        <a href="contact.html"><img src="img/envelope.png" alt="Email Logo" id="emailMe"></a>
         <a href="https://github.com/mstina03" target="_blank"><img src="img/github-square-512.png" alt="Github Logo"
                 id="gitHub"></a>
         <a href="https://www.linkedin.com" target="_blank"><img src="img/Linked In.png" alt="Linked In Logo"

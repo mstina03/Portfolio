@@ -14,20 +14,30 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <header>
-    <nav>
-        <figure>
-            <a href="index.html"><img src="img/TinaLogo.png" alt=" Tina's Logo" class="Logo"></a>
-        </figure>
-        <div class="navigation-menu">
-            <ol>
-                <li class="menu"><a href="index.html">Home</a></li>
-                <li class="menu"><a href="about.html" class="selected">About</a></li>
-                <li class="menu"><a href="work.html">Projects</a></li>
-                <li class="menu"><a href="resume.html">Resume</a></li>
-                <li class="menu"><a href="contact.html">Contact</a></li>
-            </ol>
+
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html"><img src="img/TinaLogo.png" alt=" Tina's Logo" class="Logo"
+                        class="navbar-brand"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" class="navigation-menu">
+                <ul class="nav nav-pills navbar-right">
+                    <li class="menu"><a href="index.html">Home</a></li>
+                    <li class="menu"><a href="about.html" class="selected">About</a></li>
+                    <li class="menu"><a href="work.html">Projects</a></li>
+                    <li class="menu"><a href="resume.html">Resume</a></li>
+                    <li class="menu"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+    <nav class="navbar navbar-inverse"></nav>
 </header>
 
 <body>
@@ -35,48 +45,61 @@
         Web Designer & Developer with a passion for designing & developing custom websites.
     </p>
 
-    <nav class="about">
-        <div id="aboutpg">
-            <figure>
-                <img id="aboutImg" src="img/IMG_3873.jpeg" alt=" Tina Smith">
-            </figure>
-            <br>
-            <figcaption><b>Tina Smith</b></figcaption>
-            <figcaption>Web Designer & Developer</figcaption>
+
+    <div class="about">
+        <div class="row">
+            <div class="col-md-6">
+                <br><br><br>
+                <div id="aboutpg">
+                    <br><br>
+                    <figure>
+                        <img id="aboutImg" src="img/IMG_3873.jpeg" alt=" Tina Smith">
+                    </figure>
+                    <br>
+                    <figcaption><b>Tina Smith</b></figcaption>
+                    <figcaption>Web Designer & Developer</figcaption>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+
+                <p id="myCanvas">
+                    <br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    My name is Tina. I obtained a Bachelor’s Degree in Computer Information Systems from Tuskegee
+                    University in Tuskegee, Alabama. In 2007, I accepted a position as a windows application developer
+                    with Walmart Information Systems Division (now known as Walmart Global Tech). During the company's
+                    2009 reorg, I accepted a position as a Release Engineer where I have spent the majority of my
+                    career. As a Release Engineer my responsibility transfered from building applications to releasing
+                    them. During this time I acquired project and time management skills, as well as the ability to
+                    communicate with team members and business customers while effectively meeting milestones and
+                    deadlines. After going through another reorg in 2019, I transition to a Software Engineer role
+                    on a web development team were I made enhancements to our websites and build new backend processes.
+                    <br>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    As a windows developer I developer a strong backgroud in C# and VB.net. After joining a web
+                    development team, my interest in website development grew. To supplement my self learning,
+                    I enrolled Quickstart software development bootcamp. Through this bootcamp I was able to grain
+                    valuable skills creating websites from begining to end and now process a strong knowledge of
+                    HTML, JavaScript, CSS, and React.
+                    <br>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    In my free time I enjoy family moments, watching action movies, reading romance novels, or
+                    listening to the latest audible e-book, traveling with friends, and creating gift baskets and money
+                    bouquets.
+
+                </p>
+            </div>
+
         </div>
+    </div>
 
 
-        <p id="myCanvas">
-            <br>
-
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            My name is Tina. I obtained a Bachelor’s Degree in Computer Information Systems from Tuskegee University
-            in Tuskegee, Alabama. In 2007, I accepted a position as a windows application developer with Walmart
-            Information Systems Division (now known as Walmart Global Tech). During the company's 2009 reorg, I accepted a position as a 
-            Release Engineer where I have spent the majority of my career.  As a Release Engineer my responsibility transfered 
-            from building applications to releasing them. During this time I acquired project and time management skills, 
-            as well as the ability to communicate with team members and business customers while effectively meeting milestones and deadlines. 
-            After going through another reorg in 2019, I transition to a Software Engineer role on a web development team were I made 
-            enhancements to our websites and build new backend processes. 
-            <br>
-            <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            As a windows developer I developer a strong backgroud in C# and VB.net. After joining a web development team, my 
-            interest in website development grew. To supplement my self learning, I enrolled a software development bootcamp. 
-            Through this bootcamp I was able to grain valuable skills creating websites from begining to end and now process 
-            a strong knowledge of HTML, JavaScript, CSS, and React. 
-            <br>
-            <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            In my free time I enjoy family moments, watching action movies, reading romance novels, or 
-            listening to the latest audible e-book, traveling with friends, and creating gift baskets and money bouquets.
-
-        </p>
-
-
-    </nav>
     <footer>
-        <a href="contact.html"><img src="img/mail-black-envelope-symbol.png" alt="Email Logo" id="emailMe"></a>
+        <a href="contact.html"><img src="img/envelope.png" alt="Email Logo" id="emailMe"></a>
         <a href="https://github.com/mstina03" target="_blank"><img src="img/github-square-512.png" alt="Github Logo"
                 id="gitHub"></a>
         <a href="https://www.linkedin.com" target="_blank"><img src="img/Linked In.png" alt="Linked In Logo"
