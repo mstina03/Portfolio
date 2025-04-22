@@ -103,6 +103,7 @@ fieldset {
     width: auto;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
     /* background-color:whitesmoke;
     border:1px solid black; */
 }
@@ -111,6 +112,8 @@ fieldset {
 
     height: 2.5rem;
     font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
 }
 
 
@@ -125,6 +128,16 @@ fieldset {
 
 #resumeLabel {
     font-size: 2rem;
+    font-weight: bold;
+}
+
+.blackbar {
+    background-color: black;
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Remove the numbers from the list in nav */
@@ -188,7 +201,7 @@ fieldset {
 
 #bodyImg {
 
-    height: 30rem;
+    width: 20rem;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -275,7 +288,7 @@ body {
 
 #mygreeting {
     text-align: left;
-    
+
 }
 
 #textpos {
