@@ -9,7 +9,7 @@ body {
     margin-bottom: 100px;
     clear: both;
 
-    background-image: url(../img/watercolor-sugar-cotton-clouds-background_52683-80661.avif);
+    background-image: url(../img/sugar-cotton-clouds-background.avif);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -159,6 +159,8 @@ fieldset {
 
 .menu {
     display: inline-block;
+    /* Add rounded corners to shadow box */
+    border-radius: 3rem;
 
 }
 
@@ -186,8 +188,7 @@ fieldset {
     justify-content: space-around;
     background-color: rgba(255, 192, 203, 0.267);
     box-shadow: -0.05rem -0.05rem 0.3rem #888888;
-    /* Add rounded corners to shadow box */
-    border-radius: 3em;
+
     /* Remove the underline on the links */
     text-decoration: none;
 
@@ -216,10 +217,12 @@ fieldset {
 
 #bodyImg {
 
-    width: 20rem;
+    width: 25rem;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
+    border: 5px solid #555;
+    background: black;
 
 }
 
