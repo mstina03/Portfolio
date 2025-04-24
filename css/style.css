@@ -118,13 +118,11 @@ fieldset {
     width: 20vw;
     color: #fff;
 
-
     label {
         width: 10rem;
         float: left;
         font-size: 1.2rem;
     }
-
 
 }
 
@@ -230,7 +228,6 @@ fieldset {
 
 #bodyImg {
 
-    width: 25rem;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -242,7 +239,6 @@ fieldset {
 
 #aboutImg {
 
-    width: 20rem;
     border-style: double;
     border-color: #888888;
     background: white;
@@ -253,7 +249,6 @@ fieldset {
 
 #resumeImg {
 
-    width: 10rem;
     padding-top: 20px;
     padding-bottom: auto;
     margin-left: auto;
@@ -370,6 +365,11 @@ fieldset {
 
     }
 
+    #bodyImg, #aboutImg, #resumeImg {
+
+        width: 15rem;
+
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -407,7 +407,11 @@ fieldset {
 
     }
 
+    #bodyImg, #aboutImg, #resumeImg {
 
+        width: 15rem;
+
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -443,7 +447,11 @@ fieldset {
 
     }
 
+    #bodyImg, #aboutImg, #resumeImg {
 
+        width: 20rem;
+
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -472,6 +480,15 @@ fieldset {
         font-size: 1rem;
 
     }
+
+    #aboutImg, #resumeImg {
+
+        width: 20rem;
+    }
+
+    #bodyImg {
+        width: 25rem;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -499,6 +516,15 @@ fieldset {
         margin-top: 40px;
         font-size: 1rem;
 
+    }
+
+    #aboutImg, #resumeImg {
+
+        width: 20rem;
+    }
+
+    #bodyImg {
+        width: 25rem;
     }
 
 }
