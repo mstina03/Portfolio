@@ -253,15 +253,6 @@ fieldset {
     margin-bottom: auto;
 }
 
-#emailMe, #linkedin {
-    height: 2rem;
-    width: 2.75rem;
-}
-
-#gitHub {
-    height: 2.25rem;
-    width: 2.75rem;
-}
 
 .social-icons .social-icon {
     display: inline-flex;
@@ -352,6 +343,16 @@ fieldset {
 
         font-size: 15px;
     }
+
+    #emailMe, #linkedin {
+        height: 1rem;
+        width: 1.75rem;
+    }
+
+    #gitHub {
+        height: 1.25rem;
+        width: 1.75rem;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -370,6 +371,16 @@ fieldset {
     .heading {
 
         font-size: 20px;
+    }
+
+    #emailMe, #linkedin {
+        height: 1rem;
+        width: 1.75rem;
+    }
+
+    #gitHub {
+        height: 1.25rem;
+        width: 1.75rem;
     }
 }
 
@@ -390,6 +401,16 @@ fieldset {
         font-size: 1.75vw;
     }
 
+    #emailMe, #linkedin {
+        height: 2rem;
+        width: 2.75rem;
+    }
+
+    #gitHub {
+        height: 2.25rem;
+        width: 2.75rem;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -402,6 +423,16 @@ fieldset {
         text-align: center;
         font-size: 1.75vw;
     }
+
+    #emailMe, #linkedin {
+        height: 2rem;
+        width: 2.75rem;
+    }
+
+    #gitHub {
+        height: 2.25rem;
+        width: 2.75rem;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -413,5 +444,15 @@ fieldset {
     .heading {
         text-align: center;
         font-size: 1.75vw;
+    }
+
+    #emailMe, #linkedin {
+        height: 2rem;
+        width: 2.75rem;
+    }
+
+    #gitHub {
+        height: 2.25rem;
+        width: 2.75rem;
     }
 }
