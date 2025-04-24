@@ -1,8 +1,26 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+
 html {
     font-size: 20px;
     font-family: Helvetica, "Times New Roman", Times, serif;
 }
 
+.listStyle {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: square;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
 
 body {
     min-height: 400px;
@@ -27,18 +45,10 @@ header {
     background-color: black;
 }
 
-.listStyle {
-    list-style-type: none;
-}
-
-ul {
-    list-style-type: square;
-}
 
 figcaption {
     font-size: 1.1rem;
     text-align: center;
-
 }
 
 #myName {
@@ -69,10 +79,7 @@ figcaption {
     margin-right: auto;
 }
 
-.heading {
-    text-align: center;
-    font-size: 1.75vw;
-}
+
 
 fieldset {
     font-size: 1.5rem;
@@ -155,13 +162,11 @@ fieldset {
     margin-right: auto;
 }
 
-/* Remove the numbers from the list in nav */
 
-.menu {
-    display: inline-block;
-    /* Add rounded corners to shadow box */
-    border-radius: 3rem;
+.nav {
 
+    margin-top: 20px;
+    margin-bottom: auto;
 }
 
 .menu a::before {
@@ -187,10 +192,9 @@ fieldset {
     font-size: .85rem;
     justify-content: space-around;
     background-color: rgba(255, 192, 203, 0.267);
-    box-shadow: -0.05rem -0.05rem 0.3rem #888888;
-
-    /* Remove the underline on the links */
-    text-decoration: none;
+    box-shadow: -0.05rem -0.05rem 0.3rem #6f6e6e;
+    /* Add rounded corners to shadow box */
+    border-radius: 20px;
 
 }
 
@@ -241,10 +245,12 @@ fieldset {
 #resumeImg {
 
     width: 15rem;
-    margin: .5rem;
-    padding: .5rem;
+    padding-top: auto;
+    padding-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #emailMe, #linkedin {
@@ -341,6 +347,11 @@ fieldset {
         font-size: 0.8rem;
 
     }
+
+    .heading {
+
+        font-size: 15px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -354,6 +365,11 @@ fieldset {
         height: 1.5rem;
         font-size: 1.5rem;
 
+    }
+
+    .heading {
+
+        font-size: 20px;
     }
 }
 
@@ -369,6 +385,11 @@ fieldset {
         display: contents;
     }
 
+    .heading {
+        text-align: center;
+        font-size: 1.75vw;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -376,11 +397,21 @@ fieldset {
     .hiddentag {
         display: contents;
     }
+
+    .heading {
+        text-align: center;
+        font-size: 1.75vw;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .hiddentag {
         display: contents;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 1.75vw;
     }
 }
