@@ -14,6 +14,11 @@ html {
     list-style-type: none;
 }
 
+.heading {
+
+    text-align: center;
+}
+
 ul {
     list-style-type: square;
     margin-top: 10px;
@@ -342,6 +347,7 @@ fieldset {
     .heading {
 
         font-size: 15px;
+        
     }
 
     #emailMe, #linkedin {
@@ -352,6 +358,12 @@ fieldset {
     #gitHub {
         height: 1.25rem;
         width: 1.75rem;
+    }
+
+    #myCanvas, #myResume {
+        padding: 1rem;
+        font-size: .5rem;
+
     }
 }
 
@@ -371,6 +383,7 @@ fieldset {
     .heading {
 
         font-size: 20px;
+        
     }
 
     #emailMe, #linkedin {
@@ -381,6 +394,12 @@ fieldset {
     #gitHub {
         height: 1.25rem;
         width: 1.75rem;
+    }
+
+    #myCanvas, #myResume {
+        padding: 1rem;
+        font-size: .5rem;
+
     }
 }
 
@@ -397,7 +416,7 @@ fieldset {
     }
 
     .heading {
-        text-align: center;
+        
         font-size: 1.75vw;
     }
 
@@ -409,6 +428,12 @@ fieldset {
     #gitHub {
         height: 2.25rem;
         width: 2.75rem;
+    }
+
+    #myCanvas, #myResume {
+        padding: 2rem;
+        font-size: 1rem;
+
     }
 
 }
@@ -420,7 +445,7 @@ fieldset {
     }
 
     .heading {
-        text-align: center;
+       
         font-size: 1.75vw;
     }
 
@@ -432,6 +457,12 @@ fieldset {
     #gitHub {
         height: 2.25rem;
         width: 2.75rem;
+    }
+
+    #myCanvas, #myResume {
+        padding: 2rem;
+        font-size: 1rem;
+
     }
 }
 
@@ -442,7 +473,7 @@ fieldset {
     }
 
     .heading {
-        text-align: center;
+        
         font-size: 1.75vw;
     }
 
@@ -455,4 +486,11 @@ fieldset {
         height: 2.25rem;
         width: 2.75rem;
     }
+
+    #myCanvas, #myResume {
+        padding: 2rem;
+        font-size: 1rem;
+
+    }
+
 }
