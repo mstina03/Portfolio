@@ -3,6 +3,20 @@ html {
     font-family: Helvetica, "Times New Roman", Times, serif;
 }
 
+
+body {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+
+    background-image: url(../img/watercolor-sugar-cotton-clouds-background_52683-80661.avif);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 header {
     background-color: white;
     box-shadow: -0.05rem -0.05rem 0.3rem #888888;
@@ -229,16 +243,6 @@ fieldset {
     margin-left: auto;
     margin-right: auto;
 }
-
-
-body {
-    min-height: 400px;
-    margin-bottom: 100px;
-    clear: both;
-    background-color: rgba(255, 192, 203, 0.267);
-}
-
-
 
 #emailMe, #linkedin {
     height: 2rem;
