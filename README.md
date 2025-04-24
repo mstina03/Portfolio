@@ -5,7 +5,8 @@
 
 
 ### Overview/description of the project:
-This project is a information based website that will provide the backgroud information, resume, and past project for a developer
+This project is a information based website that will provide the backgroud information, resume, and past project for a developer.
+Hosed on GitHub Pages https://mstina03.github.io/Portfolio/
 
 ### Details on how to use webpage & what functionality is offered:
 Users will click the links to navigate to the different webpages to view about, contact, work, and resume information 
