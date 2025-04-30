@@ -41,6 +41,25 @@ body {
     background-size: cover;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url(../img/Banner2.png);
+
+    /* Set a specific height */
+    min-height: 250px;
+    min-width: 450px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner {
+    width: 100%;
+}
+
 
 header {
     background-color: white;
@@ -65,7 +84,7 @@ header {
 .resume, .about, #work, .contact {
     margin: 0.5rem 0rem;
     padding: 0.5rem 0.5rem;
-    box-shadow: -0.05rem -0.05rem 0.3rem #888888;
+    box-shadow: -0.05rem -0.05rem 0.3rem #090909;
     height: 100%;
 }
 
@@ -132,7 +151,7 @@ fieldset {
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-   
+
 }
 
 #Inquiry {
