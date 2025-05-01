@@ -19,40 +19,34 @@
 <body>
 
     <header>
-        <nav class="navbar">
+
+        <nav class="navbar ">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="index.html"><img src="img/TinaLogo2.png" alt=" Tina's Logo" class="Logo navbar-brand"></a>
+                    <!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
+                    <a href="index.html"><img src="./img/TinaLogo2.png" alt=" Tina's Logo"
+                            class="Logo navbar-brand"></a>
                 </div>
-                <div>
-                    <div class="collapse navbar-collapse navigation-menu" id="myNavbar">
-                        <ul class="nav nav-pills navbar-right">
-                            <li class="menu"><a href="index.html" class="selected">Home</a></li>
-                            <li class="menu"><a href="about.html">About</a></li>
-                            <li class="menu"><a href="projects.html">Portfolio</a></li>
-                            <li class="menu"><a href="resume.html">Resume</a></li>
-                            <li class="menu"><a href="contact.html">Contact</a></li>
-                            <!-- Dropdown -->
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="index.html" id="navbardrop" data-toggle="dropdown">
-                                    Home
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="about.html">About</a>
-                                    <a class="dropdown-item" href="projects.html">Projects</a>
-                                    <a class="dropdown-item" href="resume.html">Resume</a>
-                                    <a class="dropdown-item" href="contact.html">Contact</a>
-                                </div>
-                            </li> -->
-                        </ul>
-                    </div>
-                </div>
+                <ul class="nav navbar-nav">
+                    <li class="menu "><a href="index.html" class="selected">Home</a></li>
+                    <li class="menu "><a href="about.html">About</a></li>
+                    <li class="menu "><a href="projects.html">Portfolio</a></li>
+                    <li class="menu "><a href="resume.html">Resume</a></li>
+                    <li class="menu "><a href="contact.html">Contact</a></li>
 
+                    <!-- <li class="dropdown menu">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="menu "><a href="index.html" class="selected">Home</a></li>
+                            <li class="menu "><a href="about.html">About</a></li>
+                            <li class="menu "><a href="projects.html">Portfolio</a></li>
+                            <li class="menu "><a href="resume.html">Resume</a></li>
+                            <li class="menu "><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </li> -->
+
+                </ul>
             </div>
         </nav>
         <nav class="navbar navbar-inverse"></nav>
@@ -62,7 +56,7 @@
         <div class="col-md-6">
             <br><br><br>
             <figure>
-                <img id="bodyImg" class="rounded mx-auto d-block img-responsive" src="img/Tina2.jpeg"
+                <img id="bodyImg" class="rounded mx-auto d-block img-responsive" src="./img/Tina4.jpg"
                     alt=" Tina Smith Image">
             </figure>
 
@@ -83,22 +77,24 @@
     </div>
 
     <!-- style="background-color:lavenderblush;" -->
-
-    <div class="row">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4">
-            <br>
-            <br>
-            <footer>
-                <a href="contact.html"><img src="img/envelope.png" alt="Email Logo" id="emailMe"></a>
-                <a href="https://github.com/mstina03" target="_blank"><img src="img/github-square-512.png"
-                        alt="Github Logo" id="gitHub"></a>
-                <a href="https://www.linkedin.com/in/smithtina1203" target="_blank"><img src="img/LinkedIn.png"
-                        alt="Linked In Logo" id="linkedin"></a>
-            </footer>
+    <div>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <br>
+                <br>
+                <footer>
+                    <a href="contact.html"><img src="img/envelope.png" alt="Email Logo" id="emailMe"></a>
+                    <a href="https://github.com/mstina03" target="_blank"><img src="img/github-square-512.png"
+                            alt="Github Logo" id="gitHub"></a>
+                    <a href="https://www.linkedin.com/in/smithtina1203" target="_blank"><img src="img/LinkedIn.png"
+                            alt="Linked In Logo" id="linkedin"></a>
+                </footer>
+            </div>
+            <div class="col-sm-4"></div>
         </div>
-        <div class="col-sm-4"></div>
     </div>
+
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
