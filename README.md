@@ -4,7 +4,7 @@
 ## Tina Smith
 
 
-### Overview/description of the project:
+### Overview of the project:
 This project is a information based website that will provide the backgroud information, resume, and past project for a developer.
 Hosed on GitHub Pages https://mstina03.github.io/Portfolio/
 
@@ -17,7 +17,7 @@ Users will click the links to navigate to the different webpages to view about, 
 3. js
 
 ### Ideas for future improvement (minimum of 3):
-1. Add Animation or other features to showcase a range of skills 
+1. Improve collapsible menu 
 2. Experiment with the layout to make page more visibly appealing 
 3. Experiment with colors, to possibly find a better combination to make page more appealing
 
